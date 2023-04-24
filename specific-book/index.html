@@ -16,59 +16,84 @@
 
 <body>
     <nav class="nav">
-        <header class="nav">
-            <div class="">
+        <header class="nav_container container">
+            <div class="nav_block">
                 <a class="nav_link" href="#">
-                    <h1 class="title_title"> BAND STORE / Youre full name</h1>
+                    <h1 class="nav_title"> BAND STORE / Youre full name</h1>
                 </a>
+                <div class="nav_menu">
+                    <a class="nav_link--cart" href="#"><img class="nav_cart" src="/specific-book/img/icon/cart.svg"
+                            alt="cart" height="40px" width="40px"></a>
+                    <div class="nav_btn">
+                        <button class="button btn" type="submit">Sing -Out</button>
+                    </div>
+                    <div class="nav_user--container">
+                        <a class="nav_user" href="#"><img class="nav_pic" src="/specific-book/img/icon/user.svg"
+                                alt="user"></a>
+                    </div>
+                    <a class="nav_name" href="#">
+                        <h2 class="user_name-h">Username</h2>
+                    </a>
+                </div>
             </div>
-            <div class="nav_menu">
-                <a class="nav_link" href="#"><img class="nav_cart" src="/specific-book/img/icon/cart.svg"
-                        alt="cart" height="30px" width="30px"></a>
-                <button class="button btn" type="submit">Sing -Out</button>
-                <a class="nav_user" href="#"><img class="nav_pic" src="/specific-book/img/icon/user.svg" alt="user"></a>
-                <a class="nav_name" href="#">
-                    <h2 class="user_name-h">Username</h2>
-                </a>
-            </div>
+
         </header>
+
     </nav>
     <section class="book">
         <main class="container">
-            <picture class="book_box">
-                <img class="book_pic" src="/specific-book/img/img/imageBook.png" alt="book" width="300px"
-                    height="350px">
-                <details>
-                    <summary class="book_description">Book name: Eloquent Javascript</summary>
-                    <p>Stillwater always has a wise story to help his young friends manage their everyday struggles.
-                        Using thoughtful storylines from the award-winning show, this book promotes mindfulness for kids
-                        of all ages through effective and engaging activities, including writing prompts, calming
-                        exercises, yoga, and creative tasks. Press-out cardstock pages give readers a chance to build a
-                        very special rocket ship that's sure to delight kids and parents alike!</p>
-                </details>
-            </picture>
-            <div>
-                <p><b>Book author:</b> Margin Haverbeke</p>
-                <p><b>Book level:</b> Beginner</p>
-                <p>Children's Books</p>
-            </div>
-            <div>
+            <article class="book_box">
+                <div class="book_block">
+                    <div class="book_img">
+                        <img class="book_pic" src="/specific-book/img/img/imageBook.png" alt="book" width="400px"
+                            height="550px">
+                    </div>
 
-            </div>
-            <p><b>Price,$:</b>8,99</p>
+                    <details class="book_about">
+                        <summary class="book_name"><b>Book name:</b> Be in the Moment</summary>
+                        <p class="book_text">Stillwater always has a wise story to help his young friends manage their
+                            everyday struggles.
+                            Using thoughtful storylines from the award-winning show, this book promotes mindfulness for
+                            kids
+                            of all ages through effective and engaging activities, including writing prompts, calming
+                            exercises, yoga, and creative tasks. Press-out cardstock pages give readers a chance to
+                            build a
+                            very special rocket ship that's sure to delight kids and parents alike!</p>
+                    </details>
+                </div>
+                <div class="book_info">
+                    <h2 class="book_info--title">Be in the Moment</h2>
+                    <p class="book_auther text"><b>Book author:</b> Margin Haverbeke</p>
+                    <p class="book_level text"><b>Book level:</b> Beginner</p>
+                    <p class="book_tags text">Children's Books</p>
+                </div>
+                <form class="book_form" name="count" action="#" method="post">
+                    <div class="book_form--price aside">
+                        <h3 class="book_form--text"><b>Price,$:</b></h3>
+                        <h3 class="book_number"><b>8,99</b></h3>
+                    </div>
+                    <div class="book_form--count aside">
+                        <h3 class="book_form--text">Count</h3>
+                        <select class="book_select" size="1" name="count" multiple>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="book_form--total aside">
+                        <h3 class="book_form--text">Total price</h3>
+                        <p class="book_number"><b>8.99</b></p>
+                    </div>
+                    <div class="book_btn">
+                        <button class="book_button" type="submit">Add to cart</button>
+                    </div>
 
-            <form name="count" action="#" method="post">
-                <p><select size="1" name="count" multiple>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <p>Price,$</p>
-                        <button type="submit">Add to cart</button>
-            </form>
+                </form>
+            </article>
         </main>
     </section>
-    <footer>
-
+    <footer class="footer ">
+        <h1 style="color: aliceblue;">Footer</h1>
     </footer>
 </body>
 
