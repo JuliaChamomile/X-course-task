@@ -6,29 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Band Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section>
-        <div>
-           
-            <img src="/specific-book/img/imageNotFound (1).png" alt="image" width="300px" height="350px">
-            <h2>Book name: Eloquent Javascript</h2>
-            <p><b>Book author:</b> Margin Haverbeke</p>
-            <p><b>Book level:</b> Beginner</p>
-            <p><b>Price:</b>> $ 52.72</p>
-        </div>
-        <form action="#" method="post">
-            <label for="number">Count</label>
-            <input type="number" id="count" name="number">
-        </form>
-        <p>Price,$</p>
-        <button type="submit">Add to cart</button>
-        <p><b>Description:</b> A book providing an introdution to the JavaScript language
-            and programming in general.
-        </p>
-    </section>
+    <nav class="nav">
+        <header class="nav">
+            <div class="">
+                <a class="nav_link" href="#">
+                    <h1 class="title_title"> BAND STORE / Youre full name</h1>
+                </a>
+            </div>
+            <div class="nav_menu">
+                <a class="nav_link" href="#"><img class="nav_cart" src="/specific-book/img/icon/cart.svg"
+                        alt="cart" height="30px" width="30px"></a>
+                <button class="button btn" type="submit">Sing -Out</button>
+                <a class="nav_user" href="#"><img class="nav_pic" src="/specific-book/img/icon/user.svg" alt="user"></a>
+                <a class="nav_name" href="#">
+                    <h2 class="user_name-h">Username</h2>
+                </a>
+            </div>
+        </header>
+    </nav>
+    <section class="book">
+        <main class="container">
+            <picture class="book_box">
+                <img class="book_pic" src="/specific-book/img/img/imageBook.png" alt="book" width="300px"
+                    height="350px">
+                <details>
+                    <summary class="book_description">Book name: Eloquent Javascript</summary>
+                    <p>Stillwater always has a wise story to help his young friends manage their everyday struggles.
+                        Using thoughtful storylines from the award-winning show, this book promotes mindfulness for kids
+                        of all ages through effective and engaging activities, including writing prompts, calming
+                        exercises, yoga, and creative tasks. Press-out cardstock pages give readers a chance to build a
+                        very special rocket ship that's sure to delight kids and parents alike!</p>
+                </details>
+            </picture>
+            <div>
+                <p><b>Book author:</b> Margin Haverbeke</p>
+                <p><b>Book level:</b> Beginner</p>
+                <p>Children's Books</p>
+            </div>
+            <div>
 
+            </div>
+            <p><b>Price,$:</b>8,99</p>
+
+            <form name="count" action="#" method="post">
+                <p><select size="1" name="count" multiple>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <p>Price,$</p>
+                        <button type="submit">Add to cart</button>
+            </form>
+        </main>
+    </section>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

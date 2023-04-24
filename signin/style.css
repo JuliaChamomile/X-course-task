@@ -6,10 +6,12 @@
 
 body * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
-.wrapper{
+.wrapper {
     width: 100%;
     backdrop-filter: blur(10px);
 }
@@ -22,14 +24,14 @@ body * {
     background-size: cover;
     width: 100%;
     display: flex;
-    
-   
+
+
 }
 
 .container {
     width: 1440px;
     margin: 0 auto;
-    
+
 }
 
 .nav {
@@ -127,13 +129,13 @@ body * {
     background-color: rgb(233, 209, 139);
     opacity: 70%;
     border: none;
-    transition: 3s;
+    transition: 2s;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     padding: 100px 0px;
     background: #000000;
     box-shadow: 4px 4px 10px 12px rgba(0, 0, 0, 0.25);
 }
-
