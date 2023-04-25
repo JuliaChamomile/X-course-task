@@ -15,7 +15,7 @@
 
 .nav_block {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     justify-content: space-between;
     margin: 14px 20px;
 }
@@ -103,9 +103,11 @@
     line-height: 38px;
     color: #000000;
 }
-.user_name--h:hover{
+
+.user_name--h:hover {
     border-bottom: 2px solid black;
 }
+
 .book {
     background: #F5F5F5;
 }
@@ -181,7 +183,7 @@
     background: #ECE3E1;
     border: 3px dashed #000000;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    width: 400px;
+    max-width: 400px;
     height: max-content;
     padding-top: 34px;
 }
@@ -217,9 +219,10 @@
     display: flex;
     background: #EEEAEA;
     width: max-content;
-    margin: 27px 0px 32px 240px;
-    
+    margin: 27px 20px 32px 240px;
+
 }
+
 .book_button {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -235,7 +238,8 @@
     border: 2px solid #000000;
     border-radius: 8px;
 }
-.book_button:hover{
+
+.book_button:hover {
     background-color: rgb(233, 209, 139);
     opacity: 70%;
     border: none;
