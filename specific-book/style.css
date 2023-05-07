@@ -1,255 +1,260 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .nav {
-    width: 100%;
-    justify-content: center;
-    background: #EEEAE7;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    display: flex;
+  width: 100%;
+  justify-content: center;
+  background: #EEEAE7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  display: flex;
 }
 
 .nav_block {
-    display: flex;
-    max-width: 1440px;
-    justify-content: space-between;
-    margin: 14px 20px;
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: 14px 20px;
 }
 
 .nav_link {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    text-decoration: none;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
 }
 
 .nav_title {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 56px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
 
 .nav_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
 .button {
-    background: #F0EEE3;
-    border: 1px solid #000000;
-    border-radius: 8px;
-    display: flex;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 35px;
-    color: #000000;
-    cursor: pointer;
-    padding: 7px 15px;
-    margin-left: 20px;
+  background: #F0EEE3;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  display: flex;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  cursor: pointer;
+  padding: 7px 15px;
+  margin-left: 20px;
 }
 
 .button:hover {
-    background-color: rgb(233, 209, 139);
-    opacity: 70%;
-    border: none;
-    transition: 2s;
+  background-color: rgb(233, 209, 139);
+  opacity: 70%;
+  border: none;
+  transition: 2s;
 }
 
 .nav_user--container {
-    align-items: center;
-    border-radius: 50%;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    height: 48px;
-    width: 48px;
-    margin-left: 20px;
+  align-items: center;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin-left: 20px;
+}
+
+.nav_user--container:hover {
+  transition: 2s;
+  transform: scale(1.2);
 }
 
 .nav_pic {
-    display: flex;
-    padding: 9px 9px;
+  display: flex;
+  padding: 9px 9px;
 
 }
 
 .nav_name {
-    text-decoration: none;
-    margin-left: 20px;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 .user_name--h {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 38px;
-    color: #000000;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #000000;
 }
 
 .user_name--h:hover {
-    border-bottom: 2px solid rgb(233, 209, 139);
+  border-bottom: 2px solid rgb(233, 209, 139);
 }
 
 .book {
-    background: #F5F5F5;
+  background: #F5F5F5;
 }
 
 .container {
-    width: 1440px;
-    margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .book_box {
-    display: flex;
-    padding-top: 30px;
-    margin: 0 20px;
+  display: flex;
+  padding-top: 30px;
+  margin: 0 20px;
 }
 
 .book_block {
-    margin-right: 44px;
+  margin-right: 44px;
 }
 
 .book_img {
-    width: 400px;
-    height: 550px;
-    margin-bottom: 14px;
+  width: 400px;
+  height: 550px;
+  margin-bottom: 14px;
 }
 
 .book_name {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #000000;
-    padding-bottom: 34px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  padding-bottom: 34px;
 }
 
 .book_text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000000;
-    max-width: 430px;
-    padding-bottom: 34px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  max-width: 430px;
+  padding-bottom: 34px;
 }
 
 .book_info {
-    margin-right: 130px;
+  margin-right: 130px;
 }
 
 .book_info--title {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 41px;
-    color: #000000;
-    margin-bottom: 30px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+  margin-bottom: 30px;
 }
 
 .text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    color: #000000;
-    margin-bottom: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 24px;
 }
 
 .book_form {
-    display: block;
-    background: #ECE3E1;
-    border: 3px dashed #000000;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    max-width: 400px;
-    height: max-content;
-    padding-top: 34px;
+  display: block;
+  background: #ECE3E1;
+  border: 3px dashed #000000;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  max-width: 400px;
+  height: max-content;
+  padding-top: 34px;
 }
 
 .aside {
-    display: flex;
-    padding: 0 20px 0 47px;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 18px;
+  display: flex;
+  padding: 0 20px 0 47px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 18px;
 
 }
 
 .book_form--text {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 35px;
-    color: #000000;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
 
 }
 
 .book_select {
-    background: #EEEAEA;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    padding: 3px 5px;
+  background: #EEEAEA;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 3px 5px;
 
 }
 
 .book_btn {
-    display: flex;
-    background: #EEEAEA;
-    width: max-content;
-    margin: 27px 20px 32px 240px;
+  display: flex;
+  background: #EEEAEA;
+  width: max-content;
+  margin: 27px 20px 32px 240px;
 
 }
 
 .book_button {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    padding: 6px 12px;
-    cursor: pointer;
-    border: 2px solid #000000;
-    border-radius: 8px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 8px;
 }
 
 .book_button:hover {
-    background-color: rgb(233, 209, 139);
-    opacity: 70%;
-    border: none;
-    transition: 2s;
+  background-color: rgb(233, 209, 139);
+  opacity: 70%;
+  border: none;
+  transition: 2s;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    padding: 100px 0px;
-    background: #000000;
-    box-shadow: 4px 4px 10px 12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  background: #000000;
+  box-shadow: 4px 4px 10px 12px rgba(0, 0, 0, 0.25);
 }
