@@ -105,7 +105,7 @@
 }
 
 .user_name--h:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(233, 209, 139);
 }
 
 .book {

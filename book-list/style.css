@@ -71,6 +71,7 @@
     opacity: 70%;
     border: none;
     transition: 2s;
+    
 }
 
 .nav_user--container {
@@ -105,7 +106,8 @@
 }
 
 .user_name--h:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(233, 209, 139);
+    transform: scale(1.1);
 }
 
 .footer {
@@ -186,6 +188,7 @@
     background: #ECE3E1;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     margin-bottom: 35px;
+    position: relative;
 }
 
 .catalog_img {
@@ -199,26 +202,42 @@
 .catalog_title--text {
     display: flex;
     margin-left: 20px;
-    padding-bottom: 53px;
     font-family: 'Nunito Sans';
-    font-weight: 700;
     font-size: 26px;
     line-height: 35px;
     font-weight: bold;
     color: #000000;
-}
-
-.catalog_title--text:first-child {
     padding-bottom: 18px;
 }
 
 .text {
     display: flex;
     margin-left: 20px;
-    margin-bottom: 19px;
+    margin-bottom: 38px;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 26px;
     line-height: 32px;
     color: #000000;
+}
+.catalog_btn {
+    display: flex;
+    padding: 1px 27px;
+    background: #EEEAEA;
+    border: solid 2px black;
+    border-radius: 8px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    position: absolute;
+    bottom: 36px;
+    right: 21px;
+}
+.catalog_btn:hover{
+    border: none;
+    background-color: rgb(233, 209, 139);
+    transition: 2s;
+    transform: scale(1.2);
 }
