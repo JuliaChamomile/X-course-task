@@ -115,14 +115,6 @@
   transform: scale(1.1);
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  padding: 100px 0px;
-  background: #000000;
-  box-shadow: 4px 4px 10px 12px rgba(0, 0, 0, 0.25);
-}
-
 .list {
   display: flex;
   background: #F5F5F5;
@@ -247,4 +239,12 @@
   background-color: rgb(233, 209, 139);
   transition: 2s;
   transform: scale(1.2);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  background: #000000;
+  box-shadow: 4px 4px 10px 12px rgba(0, 0, 0, 0.25);
 }
