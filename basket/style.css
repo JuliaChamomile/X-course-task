@@ -118,16 +118,88 @@
   border-bottom: 2px solid rgb(233, 209, 139);
   transform: scale(1.1);
 }
-.basket{
+
+.basket {
   width: 100%;
   justify-content: center;
-  background: url(/);
+  background: url(/basket/img/img/fon.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   display: flex;
 }
 
+.basket_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 60px 20px 60px 0px;
+}
+
+.basket_btn--name {
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 8px 38px;
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  background: #EEEAEA;
+  color: #000000;
+}
+
+.basket_btn--name:hover {
+  background-color: rgb(233, 209, 139);
+  opacity: 70%;
+  border: none;
+  transition: 2s;
+}
+
+.basket_list {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.basket_item {
+  display: flex;
+  text-decoration: none;
+  padding: 34px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basket_item--box {
+  display: flex;
+  align-items: center;
+}
+
+.basket_item--name,
+.basket_item--count,
+.basket_item--price {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+  margin-right: 100px;
+}
+
+.basket_total {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 86px;
+}
+
+.basket_total--text {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+}
 
 .footer {
   display: flex;
